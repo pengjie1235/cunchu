@@ -1,3 +1,4 @@
+#coding:utf-8
 import time
 # print("添加dev分支")
 # #1
@@ -53,3 +54,59 @@ import time
 #         break
 # a=time.time()
 # print(a)
+# for num in range(10,20):  # 迭代 10 到 20 之间的数字
+#    for i in range(2,num): # 根据因子迭代
+#       if num%i == 0:      # 确定第一个因子
+#          j=num/i          # 计算第二个因子
+#          print('%d 等于 %d * %d' % (num,i,j))
+#          break            # 跳出当前循环
+#    else:                  # 循环的 else 部分
+#       print(num, '是一个质数')
+# rows=int(input(": "))
+
+# for i in range(0,rows):
+#     for k in range(0, rows - i):
+#         print(" * ",end="")
+#         k += 1
+#     i += 1
+#     print("\n")
+#
+#
+
+
+
+
+
+
+
+
+
+
+
+
+# for a in range(0,4):
+#     for b in range(0,4-a):
+#         print(1,end="")
+#         b+=b
+#     a+=a
+#     print("\n")
+#
+for a in range(0,5):
+    for b in range(0,a):
+        print(" ",end="")
+    for b in range(a,5):
+        print(1,end="")
+    print("\n")
+
+
+#
+# for i in range(10):
+#     for j in range(0,i):
+#         print("-",end=" ")
+#
+#     for j in range(i,10):
+#         print("$", end=" ")
+#
+#     print("")
+#
+# print("-------------------------")
