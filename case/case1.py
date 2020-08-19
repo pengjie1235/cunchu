@@ -91,12 +91,12 @@ import time
 #     a+=a
 #     print("\n")
 #
-for a in range(0,5):
-    for b in range(0,a):
-        print(" ",end="")
-    for b in range(a,5):
-        print(1,end="")
-    print("\n")
+# for a in range(0,5):
+#     for b in range(0,a):
+#         print(" ",end="")
+#     for b in range(a,5):
+#         print(1,end="")
+#     print("\n")
 
 
 #
@@ -111,3 +111,22 @@ for a in range(0,5):
 #
 # print("-------------------------")
 # print("xinfenzhi")
+rows=int(input(": "))
+for i in range(0, rows + 1):
+    for j in range(0, rows - i):
+        print(" ",end="")
+        j += 1
+    for k in range(0, 2 * i - 1):
+        if k == 0 or k == 2 * i - 2 or i == rows:
+            if i == rows:
+                if k % 2 == 0:
+                    print("*",end="")
+                else:
+                    print(" ",end="")
+       /''     else:
+               print("*",end="")
+        else:
+            print(" ",end="")
+        k += 1
+    print("\n")
+    i += 1
